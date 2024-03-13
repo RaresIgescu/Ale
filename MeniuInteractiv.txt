@@ -1,0 +1,24 @@
+1.Verificare Stoc
+2.Vinde Masina
+3.Cumperi Masina
+4.Vizualizare Gama
+
+-------------
+Buna ziua bun venit la dealerul nostru auto (cu un cout)
+Alegeti o actiune:
+1.Verificare Stoc
+2.Vinde Masina
+3.Cumperi Masina
+4.Vizualizare Gama
+(cin >> actiune)
+-- daca citeste 1
+if (i == 1)
+	dealer.VerificareStoc()
+	introduceti marca
+	introduceti model
+	masina se afla/nu se afla in stocul nostru
+	apasati 0 ca sa va intoarceti la meniu
+
+if i == 2
+	dealer.VindeMasina()
+	...
